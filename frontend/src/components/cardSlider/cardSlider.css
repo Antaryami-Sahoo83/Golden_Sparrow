@@ -1,0 +1,26 @@
+.CardSlider {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-left: 60%;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 768px) {
+  .CardSlider {
+    width: 50%;
+    margin-left: 2%;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 480px) {
+  .CardSlider {
+    width: 100%;
+    margin-left: 0%;
+  }
+}

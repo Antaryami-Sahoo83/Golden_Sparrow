@@ -1,0 +1,11 @@
+.btn {
+  background-color: purple;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 12px 1rem;
+  margin: 0 0rem;
+  width: 100%;
+}

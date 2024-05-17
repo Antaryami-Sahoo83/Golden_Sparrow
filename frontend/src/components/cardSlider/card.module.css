@@ -1,0 +1,81 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  width: 16rem;
+  height: fit-content;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.card img {
+  margin-top: -20%;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card h2 {
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.card p {
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+.card .btnn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #ff9800;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card .promocode {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  .card img {
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .card h2 {
+    font-size: 1.2rem;
+  }
+  .card .promocode {
+    font-size: 0.8rem;
+  }
+}

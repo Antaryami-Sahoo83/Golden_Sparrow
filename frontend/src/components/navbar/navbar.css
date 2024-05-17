@@ -1,0 +1,14 @@
+.btn:hover {
+  background-color: rgba(244, 220, 246, 0.9);
+  transform: scale(0.9);
+  padding: 8px;
+  transition: 300ms;
+}
+
+.abtn:hover {
+  transform: scale(1.1);
+  transition: 300ms;
+}
+.abtn {
+  font-size: 20px;
+}

@@ -1,0 +1,15 @@
+.container {
+  width: 40px;
+  margin: auto auto;
+}
+.container img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  transition: all 400ms;
+  border-radius: 20px;
+}
+.container:hover img {
+  transform: scale(1.09);
+  /* border-radius: 500px; */
+}
